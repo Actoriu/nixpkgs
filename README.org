@@ -1,9 +1,24 @@
-#+TITLE: nixpkgs
+#+TITLE: nix-config
+
+Configuration for NixOS and user home (dot files). It is provided via Nix flakes and includes the following components:
 
 * Non-Nixos
 
 ** Usage
-Show what is provided:
-# +BEGIN_SRC sh
-nix flake show
-# +END_SRC
+  + Show what is provided:
+
+  #+BEGIN_SRC sh
+      nix flake show
+  #+END_SRC
+
+  + Update all inputs:
+
+  #+BEGIN_SRC sh
+      nix flake update --recreate-lock-file --commit-lock-file
+  #+END_SRC
+
+  + Update a single input:
+
+  #+BEGIN_SRC sh
+      nix flake update --update-input nixpkgs --commit-lock-file
+  #+END_SRC
