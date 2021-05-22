@@ -8,7 +8,8 @@
 
     emacs-overlay = {
       url = "github:nix-community/emacs-overlay";
-    };                                                  
+    };
+                                    
     flake-compat = {
       url = "github:edolstra/flake-compat";
       flake = false;
@@ -33,5 +34,6 @@
  ... }: {
     nix-on-droid = (nix-on-droid.lib.aarch64-linux.nix-on-droid {
       config = ./nix-on-droid.nix;
-    }).activationPackage;                                 };
+    }).activationPackage;
+  };
 }
