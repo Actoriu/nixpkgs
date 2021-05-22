@@ -5,20 +5,21 @@ Configuration for NixOS and user home (dot files). It is provided via Nix flakes
 * Non-Nixos
 
 ** Usage
-  + Show what is provided:
+
+  Show what is provided:
 
   #+BEGIN_SRC sh
-      nix flake show
+    nix flake show
   #+END_SRC
 
-  + Update all inputs:
+  Update all inputs:
 
   #+BEGIN_SRC sh
-      nix flake update --recreate-lock-file --commit-lock-file
+    nix flake update --recreate-lock-file --commit-lock-file
   #+END_SRC
 
-  + Update a single input:
+  Update a single input:
 
   #+BEGIN_SRC sh
-      nix flake update --update-input nixpkgs --commit-lock-file
+    nix flake update --update-input nixpkgs --commit-lock-file
   #+END_SRC
