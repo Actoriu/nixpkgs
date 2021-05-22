@@ -1,1 +1,1 @@
-#+: nixpkgs
+#+TITLE: nixpkgs
