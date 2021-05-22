@@ -1,1 +1,9 @@
 #+TITLE: nixpkgs
+
+* Non-Nixos
+
+** Usage
+Show what is provided:
+# +BEGIN_SRC sh
+nix flake show
+# +END_SRC
