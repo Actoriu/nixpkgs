@@ -1,4 +1,5 @@
-description = "nix-on-droid configuration";
+{
+  description = "nix-on-droid configuration";
 
   inputs = {
     nixpkgs = {
