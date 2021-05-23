@@ -30,6 +30,7 @@
       ripgrep
       rnix-lsp
       guile
+      nodejs
       openssh
       python38
       python38Packages.ipython
