@@ -136,7 +136,7 @@
       plugins = with pkgs.vimPlugins; [
         coc-nvim
         coc-highlight
-        coc-pyright
+        # coc-pyright
         coc-snippets
         vim-nix
         vim-airline
