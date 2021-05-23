@@ -5,8 +5,9 @@
     z-lua = {
       enable = true;
       enableAliases = true;
-      enableBashIntegration = true;
-      enableZshIntegration = true;
+      # enableBashIntegration = true;
+      # enableZshIntegration = true;
+      options = [ "fzf" ];
     };
   };
 }
