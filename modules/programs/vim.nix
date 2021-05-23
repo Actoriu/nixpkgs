@@ -135,6 +135,7 @@
       #};
       plugins = with pkgs.vimPlugins; [
         coc-nvim
+        coc-snippets
         vim-nix
         vim-airline
         vim-airline-themes
