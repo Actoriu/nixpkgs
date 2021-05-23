@@ -21,17 +21,7 @@
     # Simply install just the packages
     packages = with pkgs; [
       # User-facing stuff that you really really want to have
-      #vim  # or some other editor, e.g. nano or neovim
-      #ccls
-      #ripgrep
-      #guile
-      #python38
-      #python38Packages.ipython
-      #python38Packages.pip
-      #python38Packages.epc
-      #nixUnstable
-      #nixFlakes
-      ffsend
+      # vim  # or some other editor, e.g. nano or neovim
 
       # Some common stuff that people expect to have
       diffutils
@@ -39,7 +29,7 @@
       utillinux
       tzdata
       hostname
-      #man
+      # man
       gawk
       gnugrep
       gnupg
