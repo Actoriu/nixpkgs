@@ -134,6 +134,7 @@
       #  number = true;
       #};
       plugins = with pkgs.vimPlugins; [
+        coc-nvim
         vim-nix
         vim-airline
         vim-airline-themes
