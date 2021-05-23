@@ -3,7 +3,7 @@
 {
   imports = [
     ./bat.nix
-    ./bash.nix
+    # ./bash.nix
     ./command-not-found.nix
     ./direnv.nix
     ./emacs.nix
@@ -13,6 +13,6 @@
     ./man.nix
     ./vim.nix
     ./z-lua.nix
-    #./zsh.nix
+    # ./zsh.nix
   ];
 }
