@@ -26,9 +26,9 @@
 
   home = {
     packages = with pkgs; [
-      ccls
+      # ccls
       ripgrep
-      rnix-lsp
+      # rnix-lsp
       guile
       # nodejs
       openssh
