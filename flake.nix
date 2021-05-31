@@ -19,7 +19,7 @@
       url = "github:nix-community/home-manager";              inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    NUR = {
+    nur = {
       url = "github:nix-community/NUR";
       flake = false;
     };
