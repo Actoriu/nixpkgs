@@ -1,13 +1,13 @@
 { config, pkgs, ... }:
 
 {
-  nixpkgs = {
-    config = {
-      allowUnfree = true;
-      allowBroken = true;
-      allowUnsupportedSystem = true;
-    };
-  };
+  #nixpkgs = {
+  #  config = {
+  #    allowUnfree = true;
+  #    allowBroken = true;
+  #    allowUnsupportedSystem = true;
+  #  };
+  #};
 
   time = {
     timeZone = "Asia/Shanghai";
@@ -29,7 +29,7 @@
       utillinux
       tzdata
       hostname
-      # man
+      man
       gawk
       gnugrep
       gnupg
