@@ -10,7 +10,7 @@
     ./fzf.nix
     ./git.nix
     ./home.nix
-    ./man.nix
+    # ./man.nix
     ./vim.nix
     ./z-lua.nix
     # ./zsh.nix
