@@ -3,7 +3,7 @@
 {
   imports = [
     ./bat.nix
-    # ./bash.nix
+    ./bash.nix
     ./command-not-found.nix
     ./direnv.nix
     ./emacs.nix
