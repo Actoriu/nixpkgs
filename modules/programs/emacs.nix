@@ -1,10 +1,10 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 
 {
   programs = {
     emacs = {
       enable = true;
-      package = if pkgs.stdenv.isDarwin then pkgs.emacsMacport else pkgs.emacs;
+      package = if pkgs.stdenv.isDarwin then pkgs.emacsMacport else pkgs.emacsPgtkGcc;
       # extraPackages = epkgs: with epkgs; [
       #   evil
       #   helm
@@ -36,9 +36,9 @@
           url = "https://github.com/syl20bnr/spacemacs";
           ref = "develop";
         };
+        recursive = true;
       };
     };
-    recursive = true;
   };
 
   # home = {
