@@ -4,7 +4,7 @@
   programs = {
     emacs = {
       enable = true;
-      package = if pkgs.stdenv.isDarwin then pkgs.emacsMacport else pkgs.emacsPgtkGcc;
+      package = if pkgs.stdenv.isDarwin then pkgs.emacsMacport else pkgs.emacs;
       # extraPackages = epkgs: with epkgs; [
       #   evil
       #   helm
