@@ -1,11 +1,11 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   programs = {
     z-lua = {
       enable = true;
       enableAliases = true;
-      options = [ "fzf" ];
+      options = [ "enhanced" "once" "fzf" ];
     };
   };
 }
