@@ -1,15 +1,21 @@
 { ... }:
 
 {
+  programs = {
+    home-manager = {
+      enable = true;
+    };
+  };
+
   home = {
     file = {
       nixConf = {
         target = ".config/nix/nix.conf";
         text = ''
           experimental-features = nix-command flakes
+          substituters = https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store https://cache.nixos.org/
           keep-outputs = true
           keep-derivations = true
-          substituters = https://mirror.sjtu.edu.cn/nix-channels/store https://cache.nixos.org
         '';
       };
     };
@@ -20,4 +26,5 @@
   # nixpkgs = {
   #   overlays = config.nixpkgs.overlays;
   # };
+
 }
