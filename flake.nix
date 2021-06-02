@@ -15,10 +15,10 @@
       flake = false;
     };
 
-    home-manager = {
-      url = "github:nix-community/home-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    # home-manager = {
+    #   url = "github:nix-community/home-manager";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
 
     nur = {
       url = "github:nix-community/NUR";
@@ -31,7 +31,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, nix-on-droid,
+  outputs = { self, nixpkgs, nix-on-droid,
  ... }: {
     nix-on-droid = (nix-on-droid.lib.aarch64-linux.nix-on-droid {
       config = ./nix-on-droid.nix;
