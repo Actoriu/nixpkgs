@@ -31,8 +31,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, nix-on-droid,
- ... }: {
+  outputs = { self, nixpkgs, nix-on-droid, ... }: {
     nix-on-droid = (nix-on-droid.lib.aarch64-linux.nix-on-droid {
       config = ./nix-on-droid.nix;
     }).activationPackage;
