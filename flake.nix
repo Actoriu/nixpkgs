@@ -2,7 +2,6 @@
   description = "nix-on-droid configuration";
 
   inputs = {
-  
     nixpkgs = {
       url = "github:nixos/nixpkgs/master";
     };
