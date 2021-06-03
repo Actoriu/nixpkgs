@@ -31,7 +31,6 @@
 
     nur = {
       url = "github:nix-community/NUR";
-      flake = false;
     };
 
     nix-on-droid = {
