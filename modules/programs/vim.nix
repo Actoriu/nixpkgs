@@ -134,10 +134,10 @@
       #  number = true;
       #};
       plugins = with pkgs.vimPlugins; [
-        # coc-nvim
-        # coc-highlight
-        # coc-pyright
-        # coc-snippets
+        coc-nvim
+        coc-highlight
+        coc-pyright
+        coc-snippets
         vim-nix
         vim-airline
         vim-airline-themes
