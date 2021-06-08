@@ -19,13 +19,16 @@
   home = {
     packages = with pkgs; [
       ccls
-      ripgrep
       guile
+      nodePackages.pyright
       openssh
+      ripgrep
+      ripgrep-all
       python39
       python39Packages.ipython
       python39Packages.pip
       python39Packages.epc
+      translate-shell
     ];
   };
 
