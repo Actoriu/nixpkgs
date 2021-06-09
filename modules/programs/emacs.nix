@@ -24,10 +24,10 @@
       openssh
       ripgrep
       ripgrep-all
-      python39
-      python39Packages.ipython
-      python39Packages.pip
-      python39Packages.epc
+      python38
+      python38Packages.ipython
+      python38Packages.pip
+      python38Packages.epc
       translate-shell
     ];
   };
