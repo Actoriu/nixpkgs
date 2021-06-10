@@ -1,12 +1,6 @@
 { ... }:
 
 {
-  programs = {
-    home-manager = {
-      enable = true;
-    };
-  };
-
   home = {
     file = {
       nixConf = {
