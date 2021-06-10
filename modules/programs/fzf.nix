@@ -1,10 +1,10 @@
-{ ... }:
+{ pkgs, ... }:
 
 {
   programs = {
     fzf = {
       enable = true;
-      defaultCommand = "rg --files --no-ignore --hidden --follow -g '!{.git,target,node_modules,*.swp,dist,*.coffee}/*' 2> /dev/null";
+      defaultCommand = "${pkgs.ripgrep}/bin/rg --files --hidden --follow --no-ignore -g '!{.git,target,node_modules,*.swp,dist,*.coffee}/*' 2> /dev/null";
     };
   };
 }
