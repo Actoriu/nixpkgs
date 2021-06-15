@@ -35,9 +35,11 @@
   home = {
     file = {
       ".emacs.d" = {
-        source = builtins.fetchGit {
-          url = "https://github.com/syl20bnr/spacemacs";
-          ref = "develop";
+        source = builtins.fetchGitgub {
+          owner = "syl20bnr";
+          repo= "spacemacs";
+          # ref = "develop";
+          rev = "2fd3eb3edbc7c09b825892ce53721120bb999504";
         };
         recursive = true;
       };
