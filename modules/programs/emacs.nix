@@ -35,7 +35,7 @@
   home = {
     file = {
       ".emacs.d" = {
-        source = builtins.fetchGitgub {
+        source = pkgs.fetchFromGitHub {
           owner = "syl20bnr";
           repo= "spacemacs";
           # ref = "develop";
