@@ -33,19 +33,19 @@
     ];
   };
 
-  home = {
-    file = {
-      ".emacs.d" = {
-        source = pkgs.fetchFromGitHub {
-          owner = "syl20bnr";
-          repo= "spacemacs";
-          rev = "2fd3eb3edbc7c09b825892ce53721120bb999504";
-          sha256 = "00jpk6vhz3r2zbnm0xvqrglgd72m59xj6744r3p2canz0w9kkyhg";
-        };
-        recursive = true;
-      };
-    };
-  };
+  # home = {
+  #   file = {
+  #     ".emacs.d" = {
+  #       source = pkgs.fetchFromGitHub {
+  #         owner = "syl20bnr";
+  #         repo= "spacemacs";
+  #         rev = "2fd3eb3edbc7c09b825892ce53721120bb999504";
+  #         sha256 = "00jpk6vhz3r2zbnm0xvqrglgd72m59xj6744r3p2canz0w9kkyhg";
+  #       };
+  #       recursive = true;
+  #     };
+  #   };
+  # };
 
   # home = {
   #   file = {
