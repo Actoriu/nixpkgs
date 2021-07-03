@@ -13,7 +13,7 @@
         '';
       };
     };
-    stateVersion = "20.09";
+    stateVersion = "21.05";
   };
 
   # Use the same overlays as the system packages
