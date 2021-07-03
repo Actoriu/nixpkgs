@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs = {
-      url = "github:NixOS/nixpkgs/release-20.09";
+      url = "github:NixOS/nixpkgs/release-21.05";
     };
 
     nix-on-droid = {
