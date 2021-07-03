@@ -4,13 +4,16 @@
   programs = {
     direnv = {
       enable = true;
-      enableNixDirenvIntegration = true;
+      nix-direnv = {
+        enable = true;
+        enableFlakes = true;
+      };
     };
   };
 
-  home = {
-    packages = with pkgs; [
-      nix-direnv
-    ];
-  };
+  #home = {
+  #  packages = with pkgs; [
+  #    nix-direnv
+  #  ];
+  #};
 }
