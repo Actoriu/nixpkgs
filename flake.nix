@@ -6,6 +6,19 @@
       url = "github:NixOS/nixpkgs/release-21.05";
     };
 
+    #emacs = {
+    #  url = "github:nix-community/emacs-overlay";
+    #};
+
+    #neovim = {
+    #  url = "github:nix-community/neovim-nightly-overlay";
+    #  inputs.nixpkgs.follows = "nixpkgs";
+    #};
+
+    #nur = {
+    #  url = "github:nix-community/NUR";
+    #};
+
     nix-on-droid = {
       url = "github:t184256/nix-on-droid/master";
       inputs.nixpkgs.follows = "nixpkgs";
