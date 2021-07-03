@@ -48,7 +48,7 @@
 
   # Read the changelog before changing this value
   system = {
-    stateVersion = "20.09";
+    stateVersion = "21.05";
   };
 
   # nix-channel --add https://github.com/rycee/home-manager/archive/release-20.09.tar.gz home-manager
