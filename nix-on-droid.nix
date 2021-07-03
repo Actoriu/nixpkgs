@@ -1,21 +1,21 @@
 { config, pkgs, ... }:
 
 {
-  nixpkgs = {
-    config = {
-      allowUnfree = true;
-      allowBroken = true;
-      allowUnsupportedSystem = true;
-    };
-  };
+  # nixpkgs = {
+  #   config = {
+  #     allowUnfree = true;
+  #     allowBroken = true;
+  #     allowUnsupportedSystem = true;
+  #   };
+  # };
 
   time = {
     timeZone = "Asia/Shanghai";
   };
 
-  #user = {
-  #  shell = "${pkgs.zsh}/bin/zsh";
-  #};
+  # user = {
+  #   shell = "${pkgs.zsh}/bin/zsh";
+  # };
 
   environment = {
     # Simply install just the packages
