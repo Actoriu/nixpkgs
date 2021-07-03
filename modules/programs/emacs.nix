@@ -20,6 +20,7 @@
     packages = with pkgs; [
       ccls
       guile
+      nodejs
       nodePackages.pyright
       openssh
       python39
