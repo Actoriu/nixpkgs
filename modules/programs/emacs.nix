@@ -22,10 +22,10 @@
       guile
       nodePackages.pyright
       openssh
-      python38
-      python38Packages.ipython
-      python38Packages.pip
-      python38Packages.epc
+      python39
+      python39Packages.ipython
+      python39Packages.pip
+      python39Packages.epc
       ripgrep
       ripgrep-all
       translate-shell
