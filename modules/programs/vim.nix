@@ -2,8 +2,11 @@
 
 {
   programs = {
-    vim = {
+    neovim = {
       enable = true;
+      viAlias = true;
+      vimAlias = true;
+      vimdiffAlias = true;
       extraConfig = ''
         "" Encoding
         set encoding=utf-8
