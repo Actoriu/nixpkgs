@@ -11,7 +11,7 @@
     ./git.nix
     ./home.nix
     # ./man.nix
-    ./vim.nix
+    ./neovim.nix
     ./z-lua.nix
     # ./zsh.nix
   ];
