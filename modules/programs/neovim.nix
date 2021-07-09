@@ -45,9 +45,6 @@
         "" Visual settings
         syntax on
         let g:enable_bold_font = 1
-        set background=dark
-        packadd! onedark-vim
-        colorscheme onedark
         set ruler
         set number
         set cursorline
@@ -145,7 +142,14 @@
         vim-airline
         vim-airline-themes
         vim-hybrid-material
-        onedark-vim
+        {
+          plugin = onedark-vim;
+          config = ''
+            set background=dark
+            packadd! onedark-vim
+            colorscheme onedark
+          '';
+        }
       ];
     };
   };
